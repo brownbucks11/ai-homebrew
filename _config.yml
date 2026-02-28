@@ -1,0 +1,34 @@
+title: "AI Homebrew"
+description: "Migrating a brewing controller from PLC to AI-writable platform"
+url: "https://brownbucks11.github.io"
+baseurl: "/ai-homebrew"
+
+# Build settings
+theme: minima
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Blog
+show_excerpts: true
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: "blog/_posts"
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude from build
+exclude:
+  - baseline/
+  - new-platform/
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock

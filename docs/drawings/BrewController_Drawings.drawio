@@ -1,0 +1,706 @@
+<mxfile host="app.diagrams.net" version="29.6.0" agent="Claude AI">
+  <diagram id="ZstxiT8EyosO6T-9c0g5" name="1 - Interior Panel Layout">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title Block -->
+        <mxCell id="TB1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;verticalAlign=top;spacingTop=5;" value="&lt;b style='font-size:14px'&gt;HANNAN BREW CONTROLLER V5.1&lt;/b&gt;&lt;br&gt;INTERIOR PANEL LAYOUT&lt;br&gt;Drawing: PNL-001 Rev B&lt;br&gt;Scale: 28 pts/inch&lt;br&gt;Date: 2026-02-28" vertex="1">
+          <mxGeometry x="600" y="30" width="280" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Reference note -->
+        <mxCell id="REF1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;b&gt;Scale: 28 pts = 1 inch&lt;/b&gt;&lt;br&gt;Enclosure: 17.5&quot; x 28.6&quot; = 490 x 801 pts&lt;br&gt;Source: CCW Project Hannan_BrewControllerV5_1" vertex="1">
+          <mxGeometry x="600" y="130" width="280" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================ -->
+        <!-- ENCLOSURE OUTLINE - 490 x 801 pts -->
+        <!-- ============================================ -->
+        <mxCell id="ENCL" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F0;strokeColor=#666666;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry x="40" y="30" width="490" height="801" as="geometry"/>
+        </mxCell>
+
+        <!-- Mounting holes (small circles at corners and edges) -->
+        <mxCell id="MH1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#999999;strokeColor=#666666;" value="" vertex="1"><mxGeometry x="54" y="105" width="5" height="5" as="geometry"/></mxCell>
+        <mxCell id="MH2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#999999;strokeColor=#666666;" value="" vertex="1"><mxGeometry x="478" y="105" width="5" height="5" as="geometry"/></mxCell>
+        <mxCell id="MH3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#999999;strokeColor=#666666;" value="" vertex="1"><mxGeometry x="54" y="380" width="5" height="5" as="geometry"/></mxCell>
+        <mxCell id="MH4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#999999;strokeColor=#666666;" value="" vertex="1"><mxGeometry x="478" y="380" width="5" height="5" as="geometry"/></mxCell>
+        <mxCell id="MH5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#999999;strokeColor=#666666;" value="" vertex="1"><mxGeometry x="54" y="630" width="5" height="5" as="geometry"/></mxCell>
+        <mxCell id="MH6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#999999;strokeColor=#666666;" value="" vertex="1"><mxGeometry x="478" y="630" width="5" height="5" as="geometry"/></mxCell>
+
+        <!-- Cable entry holes at bottom -->
+        <mxCell id="CE1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;strokeColor=#999999;" value="" vertex="1"><mxGeometry x="65" y="770" width="8" height="8" as="geometry"/></mxCell>
+        <mxCell id="CE2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;strokeColor=#999999;" value="" vertex="1"><mxGeometry x="276" y="770" width="8" height="8" as="geometry"/></mxCell>
+        <mxCell id="CE3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;strokeColor=#999999;" value="" vertex="1"><mxGeometry x="497" y="770" width="8" height="8" as="geometry"/></mxCell>
+
+        <!-- ============================================ -->
+        <!-- DIN RAIL 1 - TOP - POWER DISTRIBUTION -->
+        <!-- Y ~110, covers contactors, breakers, terminals -->
+        <!-- ============================================ -->
+        <mxCell id="DR1_LBL" parent="1" style="text;html=1;fontSize=9;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="DIN RAIL 1 — POWER DISTRIBUTION" vertex="1">
+          <mxGeometry x="57" y="80" width="250" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="DR1" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.din_rail;rotation=180;opacity=30;" value="" vertex="1">
+          <mxGeometry x="57" y="139" width="467" height="39" as="geometry"/>
+        </mxCell>
+
+        <!-- Contactor K1 - Main / Element 1 -->
+        <mxCell id="K1" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.contactor_32_125a;rotation=0;" value="" vertex="1">
+          <mxGeometry x="69" y="113" width="38.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="K1_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;K1&lt;/b&gt;&lt;br&gt;HC1-63&lt;br&gt;ELEM 1" vertex="1">
+          <mxGeometry x="57" y="205" width="60" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Terminal blocks after K1 -->
+        <mxCell id="TB_K1a" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="112" y="132" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_K1b" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="128" y="132" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_K1c" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="144" y="132" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_K1d" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="160" y="132" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_K1e" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="176" y="132" width="14" height="53" as="geometry"/>
+        </mxCell>
+
+        <!-- CB1 - Circuit Breaker C8 (24VDC PSU feed) -->
+        <mxCell id="CB1" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;rotation=0;" value="" vertex="1">
+          <mxGeometry x="201" y="113" width="17.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="CB1_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;CB1&lt;/b&gt;&lt;br&gt;C8&lt;br&gt;24VDC" vertex="1">
+          <mxGeometry x="190" y="205" width="40" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Terminal blocks after CB1 -->
+        <mxCell id="TB_CB1a" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="222" y="131" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_CB1b" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="234" y="131" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_CB1c" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="246" y="131" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_CB1d" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="258" y="131" width="10" height="53" as="geometry"/>
+        </mxCell>
+
+        <!-- Ethernet/ASI Safety Module -->
+        <mxCell id="SAFETY" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#3366AA;strokeColor=#224488;fontColor=#FFFFFF;fontSize=8;" value="&lt;b&gt;ASI&lt;/b&gt;&lt;br&gt;E-STOP&lt;br&gt;RELAY" vertex="1">
+          <mxGeometry x="277" y="118" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="SAFETY_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;SAFETY&lt;/b&gt;&lt;br&gt;E-Stop Relay&lt;br&gt;→ ESTOP tag" vertex="1">
+          <mxGeometry x="272" y="205" width="90" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Pilot lights (on panel, but connection here) -->
+        <mxCell id="PL1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#999999;fontSize=7;" value="PL" vertex="1">
+          <mxGeometry x="370" y="68" width="40" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="PL2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDDDDD;strokeColor=#999999;fontSize=7;" value="PL" vertex="1">
+          <mxGeometry x="420" y="68" width="40" height="37" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================ -->
+        <!-- DIN RAIL 2 - MIDDLE - BREAKERS & CONTACTORS -->
+        <!-- Y ~298 -->
+        <!-- ============================================ -->
+        <mxCell id="DR2_LBL" parent="1" style="text;html=1;fontSize=9;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="DIN RAIL 2 — ELEMENT CIRCUIT PROTECTION" vertex="1">
+          <mxGeometry x="57" y="270" width="300" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="DR2" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.din_rail;rotation=180;opacity=30;" value="" vertex="1">
+          <mxGeometry x="57" y="327" width="467" height="39" as="geometry"/>
+        </mxCell>
+
+        <!-- Terminal strip - power distribution -->
+        <mxCell id="TB_R2_1" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="67" y="298" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_R2_2" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="79" y="298" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_R2_3" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="91" y="298" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_R2_4" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="103" y="298" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_R2_5" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="115" y="298" width="10" height="53" as="geometry"/>
+        </mxCell>
+
+        <!-- CB2 - 2-pole breaker Element 1 (C32) -->
+        <mxCell id="CB2" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_2p;rotation=0;" value="" vertex="1">
+          <mxGeometry x="137" y="299" width="38.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="CB2_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;CB2&lt;/b&gt;&lt;br&gt;C32 2P&lt;br&gt;ELEM 1" vertex="1">
+          <mxGeometry x="130" y="392" width="55" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- CB3 - 2-pole breaker Element 2 (C32) -->
+        <mxCell id="CB3" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_2p;rotation=0;" value="" vertex="1">
+          <mxGeometry x="182" y="298" width="38.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="CB3_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;CB3&lt;/b&gt;&lt;br&gt;C32 2P&lt;br&gt;ELEM 2" vertex="1">
+          <mxGeometry x="175" y="392" width="55" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- CB4 - 1-pole breaker -->
+        <mxCell id="CB4" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;rotation=0;" value="" vertex="1">
+          <mxGeometry x="228" y="298" width="17.5" height="91" as="geometry"/>
+        </mxCell>
+
+        <!-- K2 - Contactor Element 1 -->
+        <mxCell id="K2" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.contactor_32_125a;rotation=0;" value="" vertex="1">
+          <mxGeometry x="253" y="295" width="38.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="K2_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;K2&lt;/b&gt;&lt;br&gt;HC1-63&lt;br&gt;ELEM 1" vertex="1">
+          <mxGeometry x="247" y="392" width="55" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- K3 - Contactor Element 2 -->
+        <mxCell id="K3" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.contactor_32_125a;rotation=0;" value="" vertex="1">
+          <mxGeometry x="298" y="295" width="38.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="K3_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;K3&lt;/b&gt;&lt;br&gt;HC1-63&lt;br&gt;ELEM 2" vertex="1">
+          <mxGeometry x="292" y="392" width="55" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Terminal blocks - signal and ground -->
+        <mxCell id="TB_R2_6" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="345" y="318" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_R2_7" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="357" y="318" width="10" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_R2_8" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#E6E6E6;rotation=0;" value="" vertex="1">
+          <mxGeometry x="369" y="318" width="10" height="53" as="geometry"/>
+        </mxCell>
+
+        <!-- Ground terminal (yellow/green) -->
+        <mxCell id="PE_R2" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#CCCC22;strokeColor=#33AA33;" value="" vertex="1">
+          <mxGeometry x="390" y="316" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="PE_R2b" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#CCCC22;strokeColor=#33AA33;" value="" vertex="1">
+          <mxGeometry x="406" y="316" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="PE_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#33AA33;align=center;fontStyle=1;" value="PE GND" vertex="1">
+          <mxGeometry x="385" y="372" width="40" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Pump breakers -->
+        <mxCell id="CB5" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;rotation=0;" value="" vertex="1">
+          <mxGeometry x="435" y="298" width="17.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="CB5_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;CB5&lt;/b&gt;&lt;br&gt;PUMP" vertex="1">
+          <mxGeometry x="425" y="392" width="40" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="CB6" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;rotation=0;" value="" vertex="1">
+          <mxGeometry x="458" y="298" width="17.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="CB6_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="&lt;b&gt;CB6&lt;/b&gt;&lt;br&gt;PUMP" vertex="1">
+          <mxGeometry x="448" y="392" width="40" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================ -->
+        <!-- SSR AREA - Between Rail 2 and Rail 3 -->
+        <!-- Y ~420-530, heatsink mounted on panel -->
+        <!-- ============================================ -->
+        <mxCell id="SSR_LBL" parent="1" style="text;html=1;fontSize=9;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="SSR HEATSINK ASSEMBLY (panel-mounted)" vertex="1">
+          <mxGeometry x="57" y="440" width="300" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Heatsink block -->
+        <mxCell id="HS" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A1A1A;strokeColor=#333333;" value="" vertex="1">
+          <mxGeometry x="57" y="468" width="220" height="81" as="geometry"/>
+        </mxCell>
+
+        <!-- SSR 1 -->
+        <mxCell id="SSR1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#999999;fontSize=7;fontStyle=1;" value="SSR-1&lt;br&gt;&lt;font style='font-weight:normal;font-size:6px'&gt;Magnecraft&lt;br&gt;W6240ASX-1&lt;br&gt;240V/40A&lt;/font&gt;" vertex="1">
+          <mxGeometry x="75" y="485" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="SSR1_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#CC0000;align=center;fontStyle=1;" value="ELEM 1 PWM&lt;br&gt;← DO-04&lt;br&gt;(_IO_EM_DO_04)" vertex="1">
+          <mxGeometry x="57" y="552" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- SSR 2 -->
+        <mxCell id="SSR2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#999999;fontSize=7;fontStyle=1;" value="SSR-2&lt;br&gt;&lt;font style='font-weight:normal;font-size:6px'&gt;Magnecraft&lt;br&gt;W6240ASX-1&lt;br&gt;240V/40A&lt;/font&gt;" vertex="1">
+          <mxGeometry x="180" y="485" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="SSR2_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#CC0000;align=center;fontStyle=1;" value="ELEM 2 PWM&lt;br&gt;← DO-00&lt;br&gt;(_IO_EM_DO_00)" vertex="1">
+          <mxGeometry x="165" y="552" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- DIN rail stub for terminals near SSRs -->
+        <mxCell id="DR2B" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.din_rail;rotation=180;opacity=30;" value="" vertex="1">
+          <mxGeometry x="290" y="490" width="220" height="39" as="geometry"/>
+        </mxCell>
+
+        <!-- Terminal blocks near SSRs -->
+        <mxCell id="TB_SSR1" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="300" y="480" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_SSR2" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="316" y="480" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_SSR3" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="332" y="480" width="14" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_SSR4" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;rotation=0;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry x="348" y="480" width="14" height="53" as="geometry"/>
+        </mxCell>
+
+        <!-- Aux breaker on stub rail -->
+        <mxCell id="CB_AUX1" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;rotation=0;" value="" vertex="1">
+          <mxGeometry x="380" y="466" width="17.5" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="CB_AUX2" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;rotation=0;" value="" vertex="1">
+          <mxGeometry x="400" y="466" width="17.5" height="91" as="geometry"/>
+        </mxCell>
+
+        <!-- Ground terminal on stub -->
+        <mxCell id="PE_SSR" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.terminal_4_6mm2;fillColor=#CCCC22;strokeColor=#33AA33;" value="" vertex="1">
+          <mxGeometry x="430" y="480" width="10" height="53" as="geometry"/>
+        </mxCell>
+
+        <!-- Dimension line -->
+        <mxCell id="DIM1" parent="1" style="verticalLabelPosition=middle;dashed=0;shadow=0;html=1;shape=mxgraph.cabinets.dimension;verticalAlign=top;align=center;rotation=0;fontSize=8;" value='12.6"' vertex="1">
+          <mxGeometry x="105" y="595" width="361" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================ -->
+        <!-- DIN RAIL 3 - BOTTOM - PLC & ELECTRONICS -->
+        <!-- Y ~640 -->
+        <!-- ============================================ -->
+        <mxCell id="DR3_LBL" parent="1" style="text;html=1;fontSize=9;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="DIN RAIL 3 — PLC &amp; CONTROL ELECTRONICS" vertex="1">
+          <mxGeometry x="57" y="628" width="300" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="DR3" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.din_rail;rotation=0;opacity=30;" value="" vertex="1">
+          <mxGeometry x="57" y="690" width="420" height="39" as="geometry"/>
+        </mxCell>
+
+        <!-- Marshalling terminal blocks (colored) -->
+        <mxCell id="TB_SIG1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33AA33;strokeColor=#1A6A1A;fontSize=6;fontColor=#FFFFFF;fontStyle=1;" value="T1" vertex="1">
+          <mxGeometry x="67" y="680" width="14" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_SIG2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33AA33;strokeColor=#1A6A1A;fontSize=6;fontColor=#FFFFFF;fontStyle=1;" value="T2" vertex="1">
+          <mxGeometry x="83" y="680" width="14" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_SIG3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4477BB;strokeColor=#2A5599;fontSize=6;fontColor=#FFFFFF;fontStyle=1;" value="T3" vertex="1">
+          <mxGeometry x="99" y="680" width="14" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_SIG4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD8833;strokeColor=#BB6622;fontSize=6;fontColor=#FFFFFF;fontStyle=1;" value="T4" vertex="1">
+          <mxGeometry x="115" y="680" width="14" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_SIG5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC2222;strokeColor=#991111;fontSize=6;fontColor=#FFFFFF;fontStyle=1;" value="T5" vertex="1">
+          <mxGeometry x="131" y="680" width="14" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="TB_SIG6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33AA33;strokeColor=#1A6A1A;fontSize=6;fontColor=#FFFFFF;fontStyle=1;" value="T6" vertex="1">
+          <mxGeometry x="147" y="680" width="14" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="MARSH_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#333333;align=center;" value="MARSHALLING&lt;br&gt;TERMINALS" vertex="1">
+          <mxGeometry x="67" y="716" width="95" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- 24VDC Power Supply -->
+        <mxCell id="PSU" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E4E0;strokeColor=#999999;fontSize=7;fontStyle=1;" value="&lt;b&gt;PS&lt;/b&gt;&lt;br&gt;&lt;font style='font-weight:normal;font-size:6px'&gt;Omron&lt;br&gt;S8VK-S06024&lt;br&gt;24VDC 60W&lt;/font&gt;" vertex="1">
+          <mxGeometry x="170" y="667" width="45" height="62" as="geometry"/>
+        </mxCell>
+
+        <!-- Allen-Bradley Micro 820 PLC -->
+        <mxCell id="PLC" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E4E0;strokeColor=#999999;fontSize=8;fontStyle=1;" value="&lt;b&gt;PLC&lt;/b&gt;&lt;br&gt;&lt;font style='font-weight:normal;font-size:6px'&gt;Allen-Bradley&lt;br&gt;Micro820&lt;br&gt;2080-LC20-20QBB&lt;br&gt;&lt;br&gt;12 DI / 7 DO / 4 AI / 1 AO&lt;br&gt;Ethernet (Modbus TCP)&lt;/font&gt;" vertex="1">
+          <mxGeometry x="225" y="652" width="155" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLC_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#CC0000;align=center;fontStyle=1;" value="ETHERNET → Modbus TCP → Ignition SCADA" vertex="1">
+          <mxGeometry x="215" y="740" width="210" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- 2080-SERIALISOL -->
+        <mxCell id="SER" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E4E0;strokeColor=#999999;fontSize=7;" value="&lt;b&gt;2080-&lt;br&gt;SERIAL&lt;br&gt;ISOL&lt;/b&gt;" vertex="1">
+          <mxGeometry x="390" y="660" width="55" height="72" as="geometry"/>
+        </mxCell>
+
+        <!-- Voltage divider resistor callout -->
+        <mxCell id="VDIV" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CC6600;strokeWidth=1;dashed=1;fontSize=7;fontColor=#CC6600;verticalAlign=top;spacingTop=2;" value="&lt;b&gt;VOLTAGE DIVIDER&lt;br&gt;RESISTOR NETWORK&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:6px'&gt;4× pairs for NTC&lt;br&gt;thermistor → 0-10V&lt;br&gt;AI scaling&lt;/font&gt;" vertex="1">
+          <mxGeometry x="455" y="650" width="95" height="65" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================ -->
+        <!-- I/O ASSIGNMENT TABLE -->
+        <!-- ============================================ -->
+        <mxCell id="IO_TITLE" parent="1" style="text;html=1;fontSize=11;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="I/O ASSIGNMENT TABLE" vertex="1">
+          <mxGeometry x="40" y="860" width="250" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Table header -->
+        <mxCell id="IO_HDR" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2A5599;strokeColor=#1A3366;fontColor=#FFFFFF;fontSize=8;fontStyle=1;align=left;spacingLeft=5;" value="PLC TAG &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; TERMINAL &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; FUNCTION &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DESTINATION" vertex="1">
+          <mxGeometry x="40" y="882" width="520" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- AI rows -->
+        <mxCell id="IO_AI" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8F0;strokeColor=#DDDDDD;fontSize=7;align=left;spacingLeft=5;verticalAlign=top;spacingTop=3;" value="&lt;b&gt;ANALOG INPUTS&lt;/b&gt;&lt;br&gt;_IO_EM_AI_00 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AI-00 (Volt0) &amp;nbsp;&amp;nbsp;&amp;nbsp; Temp Sensor 1 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → Temp1degF&lt;br&gt;_IO_EM_AI_01 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AI-01 (Volt1) &amp;nbsp;&amp;nbsp;&amp;nbsp; Temp Sensor 2 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → Temp2degF&lt;br&gt;_IO_EM_AI_02 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AI-02 (Volt2) &amp;nbsp;&amp;nbsp;&amp;nbsp; Temp Sensor 3 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → Temp3degF&lt;br&gt;_IO_EM_AI_03 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AI-03 (Volt3) &amp;nbsp;&amp;nbsp;&amp;nbsp; Temp Sensor 4 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → Temp4degF" vertex="1">
+          <mxGeometry x="40" y="902" width="520" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- DO rows -->
+        <mxCell id="IO_DO" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0F8FF;strokeColor=#DDDDDD;fontSize=7;align=left;spacingLeft=5;verticalAlign=top;spacingTop=3;" value="&lt;b&gt;DISCRETE OUTPUTS&lt;/b&gt;&lt;br&gt;_IO_EM_DO_00 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; O-00 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Element 2 PWM &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → SSR-2 → Kettle&lt;br&gt;_IO_EM_DO_04 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; O-04 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Element 1 PWM &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → SSR-1 → HLT/Mash&lt;br&gt;_IO_EM_DO_05 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; O-05 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Pump 1 (P1_ON) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → Pump contactor&lt;br&gt;_IO_EM_DO_06 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; O-06 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Pump 2 (P2_ON) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → Pump contactor" vertex="1">
+          <mxGeometry x="40" y="972" width="520" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- DI rows -->
+        <mxCell id="IO_DI" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0FFF0;strokeColor=#DDDDDD;fontSize=7;align=left;spacingLeft=5;verticalAlign=top;spacingTop=3;" value="&lt;b&gt;DISCRETE INPUTS (DI-00 thru DI-11)&lt;/b&gt;&lt;br&gt;Panel pushbuttons, selector switches, E-STOP, key switch&lt;br&gt;12 channels mapped to face panel operator devices" vertex="1">
+          <mxGeometry x="40" y="1042" width="520" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- COMM row -->
+        <mxCell id="IO_COMM" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F0FF;strokeColor=#DDDDDD;fontSize=7;align=left;spacingLeft=5;verticalAlign=top;spacingTop=3;" value="&lt;b&gt;COMMUNICATIONS&lt;/b&gt;&lt;br&gt;ETHERNET (RJ45) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Modbus TCP &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → Ignition Community Ed. on HP Slate 21 Pro&lt;br&gt;2080-SERIALISOL &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; RS-232/485 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (Available - unused)" vertex="1">
+          <mxGeometry x="40" y="1082" width="520" height="45" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============================================ -->
+  <!-- PAGE 2: OPERATOR FACE PANEL -->
+  <!-- ============================================ -->
+  <diagram id="page2-face-panel" name="2 - Operator Face Panel">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="FP_TITLE" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;verticalAlign=top;spacingTop=5;" value="&lt;b style='font-size:14px'&gt;OPERATOR FACE PANEL — FRONT VIEW&lt;/b&gt;&lt;br&gt;Drawing: PNL-002 Rev B&lt;br&gt;Sloped-top console enclosure" vertex="1">
+          <mxGeometry x="40" y="30" width="770" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Console body outline -->
+        <mxCell id="FP_BODY" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C0B8;strokeColor=#888888;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry x="120" y="100" width="600" height="500" as="geometry"/>
+        </mxCell>
+
+        <!-- Face panel cutout (dark background) -->
+        <mxCell id="FP_CUT" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2A2A2A;strokeColor=#444444;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry x="180" y="150" width="480" height="350" as="geometry"/>
+        </mxCell>
+
+        <!-- ROW 1: Key Switch, Enable, Temp Display, E-Stop, Stop -->
+        <!-- Key Switch -->
+        <mxCell id="FP_KEY" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#888888;strokeColor=#666666;fontSize=7;fontColor=#FFFFFF;fontStyle=1;" value="KEY" vertex="1">
+          <mxGeometry x="210" y="190" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_KEY_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="LOC/REM" vertex="1">
+          <mxGeometry x="200" y="235" width="60" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Green Enable button -->
+        <mxCell id="FP_EN" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#22AA22;strokeColor=#006600;fontSize=8;fontColor=#FFFFFF;fontStyle=1;" value="" vertex="1">
+          <mxGeometry x="290" y="185" width="45" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_EN_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="ENABLE" vertex="1">
+          <mxGeometry x="285" y="235" width="55" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Temperature Display -->
+        <mxCell id="FP_DISP" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#444444;fontSize=14;fontColor=#00FF00;fontFamily=Courier New;fontStyle=1;verticalAlign=middle;" value="237&lt;br&gt;&lt;font style='font-size:10px'&gt;°F&lt;/font&gt;" vertex="1">
+          <mxGeometry x="370" y="180" width="80" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_DISP_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="TEMP" vertex="1">
+          <mxGeometry x="385" y="240" width="50" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- E-STOP Mushroom -->
+        <mxCell id="FP_ESTOP" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#DD0000;strokeColor=#880000;strokeWidth=2;fontSize=8;fontColor=#FFFFFF;fontStyle=1;" value="E-STOP" vertex="1">
+          <mxGeometry x="490" y="178" width="55" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_ESTOP_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#FF4444;align=center;fontStyle=1;" value="EMERGENCY&lt;br&gt;STOP" vertex="1">
+          <mxGeometry x="483" y="238" width="70" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Red Stop button -->
+        <mxCell id="FP_STOP" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#DD2222;strokeColor=#990000;fontSize=8;fontColor=#FFFFFF;fontStyle=1;" value="" vertex="1">
+          <mxGeometry x="580" y="185" width="45" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_STOP_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="STOP" vertex="1">
+          <mxGeometry x="578" y="235" width="50" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- ROW 2: Selectors and buttons -->
+        <!-- Amber Selector - HLT -->
+        <mxCell id="FP_SEL1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#555555;strokeColor=#444444;" value="" vertex="1">
+          <mxGeometry x="210" y="290" width="42" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_SEL1H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDAA22;strokeColor=#AA8800;rotation=-20;" value="" vertex="1">
+          <mxGeometry x="220" y="298" width="14" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_SEL1_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#FFAA00;align=center;fontStyle=1;" value="HLT" vertex="1">
+          <mxGeometry x="210" y="336" width="42" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- White PB - W1TPMP -->
+        <mxCell id="FP_PB1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#EEEEEE;strokeColor=#AAAAAA;fontSize=7;fontColor=#333333;fontStyle=1;" value="" vertex="1">
+          <mxGeometry x="280" y="293" width="38" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_PB1_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="W1TPMP" vertex="1">
+          <mxGeometry x="270" y="336" width="60" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Amber Selector - 1/2OPMP -->
+        <mxCell id="FP_SEL2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#555555;strokeColor=#444444;" value="" vertex="1">
+          <mxGeometry x="350" y="290" width="42" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_SEL2H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDAA22;strokeColor=#AA8800;rotation=0;" value="" vertex="1">
+          <mxGeometry x="364" y="296" width="14" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_SEL2_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#FFAA00;align=center;fontStyle=1;" value="1/2OPMP" vertex="1">
+          <mxGeometry x="340" y="336" width="65" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Green PB - PMP1 -->
+        <mxCell id="FP_PMP1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#22AA22;strokeColor=#006600;fontSize=7;fontColor=#FFFFFF;fontStyle=1;" value="" vertex="1">
+          <mxGeometry x="428" y="293" width="38" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_PMP1_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="PMP1" vertex="1">
+          <mxGeometry x="422" y="336" width="50" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Blue PB - BOIL -->
+        <mxCell id="FP_BOIL" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2266CC;strokeColor=#003399;fontSize=7;fontColor=#FFFFFF;fontStyle=1;" value="" vertex="1">
+          <mxGeometry x="498" y="293" width="38" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_BOIL_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="BOIL" vertex="1">
+          <mxGeometry x="492" y="336" width="50" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Amber Selector - MODE -->
+        <mxCell id="FP_SEL3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#555555;strokeColor=#444444;" value="" vertex="1">
+          <mxGeometry x="570" y="290" width="42" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_SEL3H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDAA22;strokeColor=#AA8800;rotation=20;" value="" vertex="1">
+          <mxGeometry x="584" y="296" width="14" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_SEL3_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#FFAA00;align=center;fontStyle=1;" value="MODE" vertex="1">
+          <mxGeometry x="567" y="336" width="50" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- ROW 3: Additional -->
+        <!-- Green PB - PMP2 -->
+        <mxCell id="FP_PMP2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#22AA22;strokeColor=#006600;fontSize=7;fontColor=#FFFFFF;fontStyle=1;" value="" vertex="1">
+          <mxGeometry x="310" y="390" width="38" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_PMP2_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="PMP2" vertex="1">
+          <mxGeometry x="304" y="432" width="50" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- White PB - RESET -->
+        <mxCell id="FP_RST" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#EEEEEE;strokeColor=#AAAAAA;fontSize=7;fontColor=#333333;fontStyle=1;" value="" vertex="1">
+          <mxGeometry x="480" y="390" width="38" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_RST_LBL" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#CCCCCC;align=center;fontStyle=1;" value="RESET" vertex="1">
+          <mxGeometry x="474" y="432" width="50" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- HMI callout -->
+        <mxCell id="FP_HMI" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2A5599;strokeWidth=1;dashed=1;fontSize=9;fontColor=#2A5599;verticalAlign=middle;" value="&lt;b&gt;HP Slate 21 Pro Touchscreen&lt;/b&gt;&lt;br&gt;Ignition Community Edition HMI/SCADA&lt;br&gt;Mounted on top of sloped console" vertex="1">
+          <mxGeometry x="180" y="530" width="480" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- DI Mapping table -->
+        <mxCell id="FP_MAP_TITLE" parent="1" style="text;html=1;fontSize=11;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="FACE PANEL → DI MAPPING" vertex="1">
+          <mxGeometry x="40" y="620" width="300" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="FP_MAP" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#DDDDDD;fontSize=8;align=left;spacingLeft=10;verticalAlign=top;spacingTop=5;" value="&lt;b&gt;Device&lt;/b&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;Color&lt;/b&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;DI Channel&lt;/b&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;PLC Function&lt;/b&gt;&lt;br&gt;─────────────────────────────────────────&lt;br&gt;KEY SWITCH &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Chrome &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-00 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Local/Remote select&lt;br&gt;ENABLE &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Green &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-01 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; System enable&lt;br&gt;STOP &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Red &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-02 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; System stop&lt;br&gt;E-STOP &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Red Mush. &amp;nbsp;&amp;nbsp; Hardwired &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; → ASI Safety Relay → ESTOP tag&lt;br&gt;HLT Selector &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Amber &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-03/04 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Mode: HLT/Mash/Kettle&lt;br&gt;W1TPMP &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; White &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-05 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Wort pump select&lt;br&gt;1/2OPMP &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Amber &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-06 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Pump 1/2 select&lt;br&gt;PMP1 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Green &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-07 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; P1_START → _IO_EM_DO_05&lt;br&gt;BOIL &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Blue &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-08 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; WortBoiling trigger&lt;br&gt;MODE &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Amber &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-09/10 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; MODE_CTL selector&lt;br&gt;PMP2 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Green &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; DI-11 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; P2_START → _IO_EM_DO_06&lt;br&gt;RESET &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; White &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (TBD) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Fault reset" vertex="1">
+          <mxGeometry x="40" y="645" width="770" height="210" as="geometry"/>
+        </mxCell>
+
+        <!-- Notes -->
+        <mxCell id="FP_NOTE" parent="1" style="text;html=1;fontSize=8;fillColor=none;strokeColor=none;fontColor=#666666;fontStyle=2;" value="Note: DI channel assignments are estimated from CCW program analysis. Verify with physical wiring. E-STOP is hardwired through ASI safety relay, not a PLC DI." vertex="1">
+          <mxGeometry x="40" y="860" width="770" height="25" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============================================ -->
+  <!-- PAGE 3: SYSTEM ARCHITECTURE -->
+  <!-- ============================================ -->
+  <diagram id="page3-sys-arch" name="3 - System Architecture">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="SA_TITLE" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;verticalAlign=top;spacingTop=5;" value="&lt;b style='font-size:14px'&gt;SYSTEM ARCHITECTURE DIAGRAM&lt;/b&gt;&lt;br&gt;Hannan Brew Controller V5.1&lt;br&gt;Drawing: SYS-001 Rev A" vertex="1">
+          <mxGeometry x="40" y="20" width="1020" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- FIELD LEVEL -->
+        <mxCell id="SA_FIELD_LBL" parent="1" style="text;html=1;fontSize=11;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#CC6600;" value="FIELD INSTRUMENTS &amp; FINAL ELEMENTS" vertex="1">
+          <mxGeometry x="40" y="90" width="350" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Temp sensors -->
+        <mxCell id="SA_T1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=8;" value="&lt;b&gt;TE-1&lt;/b&gt;&lt;br&gt;NTC Thermistor&lt;br&gt;Temp Sensor 1" vertex="1">
+          <mxGeometry x="50" y="120" width="110" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="SA_T2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=8;" value="&lt;b&gt;TE-2&lt;/b&gt;&lt;br&gt;NTC Thermistor&lt;br&gt;Temp Sensor 2" vertex="1">
+          <mxGeometry x="170" y="120" width="110" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="SA_T3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=8;" value="&lt;b&gt;TE-3&lt;/b&gt;&lt;br&gt;NTC Thermistor&lt;br&gt;Temp Sensor 3" vertex="1">
+          <mxGeometry x="290" y="120" width="110" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="SA_T4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=8;" value="&lt;b&gt;TE-4&lt;/b&gt;&lt;br&gt;NTC Thermistor&lt;br&gt;Temp Sensor 4" vertex="1">
+          <mxGeometry x="410" y="120" width="110" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Heating elements -->
+        <mxCell id="SA_E1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=8;" value="&lt;b&gt;ELEM-1&lt;/b&gt;&lt;br&gt;Heating Element&lt;br&gt;HLT / Mash" vertex="1">
+          <mxGeometry x="570" y="120" width="110" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="SA_E2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=8;" value="&lt;b&gt;ELEM-2&lt;/b&gt;&lt;br&gt;Heating Element&lt;br&gt;Kettle" vertex="1">
+          <mxGeometry x="690" y="120" width="110" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Pumps -->
+        <mxCell id="SA_P1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=8;" value="&lt;b&gt;P-1&lt;/b&gt;&lt;br&gt;Pump 1" vertex="1">
+          <mxGeometry x="850" y="120" width="80" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="SA_P2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=8;" value="&lt;b&gt;P-2&lt;/b&gt;&lt;br&gt;Pump 2" vertex="1">
+          <mxGeometry x="940" y="120" width="80" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- SIGNAL CONDITIONING -->
+        <mxCell id="SA_SC_LBL" parent="1" style="text;html=1;fontSize=11;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#CC6600;" value="SIGNAL CONDITIONING" vertex="1">
+          <mxGeometry x="40" y="200" width="250" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="SA_VDIV" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=8;" value="&lt;b&gt;Voltage Divider Network&lt;/b&gt;&lt;br&gt;4× resistor pairs&lt;br&gt;NTC → 0-10V for AI inputs" vertex="1">
+          <mxGeometry x="140" y="225" width="280" height="45" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="SA_SSR_BOX" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=8;" value="&lt;b&gt;SSR-1 &amp; SSR-2&lt;/b&gt;&lt;br&gt;Magnecraft W6240ASX-1&lt;br&gt;240V/40A Solid State Relays + Heatsinks" vertex="1">
+          <mxGeometry x="570" y="225" width="240" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- Wires from sensors to VDIV -->
+        <mxCell id="W_T1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#D6B656;strokeWidth=1;" edge="1" source="SA_T1" target="SA_VDIV"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="W_T2" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#D6B656;strokeWidth=1;" edge="1" source="SA_T2" target="SA_VDIV"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="W_T3" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#D6B656;strokeWidth=1;" edge="1" source="SA_T3" target="SA_VDIV"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="W_T4" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#D6B656;strokeWidth=1;" edge="1" source="SA_T4" target="SA_VDIV"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- CONTROL LEVEL -->
+        <mxCell id="SA_CTL_LBL" parent="1" style="text;html=1;fontSize=11;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="CONTROL LEVEL" vertex="1">
+          <mxGeometry x="40" y="295" width="200" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- PLC -->
+        <mxCell id="SA_PLC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=9;fontStyle=1;" value="&lt;b style='font-size:12px'&gt;Allen-Bradley Micro820&lt;/b&gt;&lt;br&gt;2080-LC20-20QBB&lt;br&gt;&lt;br&gt;12 DI | 7 DO | 4 AI | 1 AO&lt;br&gt;&lt;br&gt;Programs: TempIn, AIO, TempCorrection, BrewDay,&lt;br&gt;E1_Control (PID+PWM), E2_Control (PID+PWM),&lt;br&gt;MODE_Control, Pump_CTL, Timer_Mode, TMR1_PGM&lt;br&gt;&lt;br&gt;39 Custom Function Blocks&lt;br&gt;PID w/ Auto-Tune | 4-Step Mash Timer | ISA Mode Control" vertex="1">
+          <mxGeometry x="200" y="325" width="400" height="165" as="geometry"/>
+        </mxCell>
+
+        <!-- Safety relay -->
+        <mxCell id="SA_SAFETY" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=8;fontStyle=1;" value="&lt;b&gt;ASI Safety Relay&lt;/b&gt;&lt;br&gt;E-STOP Circuit&lt;br&gt;Hardwired interlock" vertex="1">
+          <mxGeometry x="50" y="370" width="120" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Panel I/O -->
+        <mxCell id="SA_PANEL" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=8;" value="&lt;b&gt;Operator Panel&lt;/b&gt;&lt;br&gt;12 DI: Buttons, Selectors,&lt;br&gt;Key Switch, E-Stop" vertex="1">
+          <mxGeometry x="50" y="440" width="120" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Power section -->
+        <mxCell id="SA_POWER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=8;" value="&lt;b&gt;Power Distribution&lt;/b&gt;&lt;br&gt;65A Main MCB&lt;br&gt;2× C32 (Elements)&lt;br&gt;2× HC1-63 Contactors&lt;br&gt;24VDC PSU (Omron)" vertex="1">
+          <mxGeometry x="640" y="340" width="140" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Wires: VDIV to PLC AI -->
+        <mxCell id="W_VDIV_PLC" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#D79B00;strokeWidth=2;" edge="1" source="SA_VDIV" target="SA_PLC" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="W_VDIV_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#D79B00;fontStyle=1;" value="4× AI (0-10V)" vertex="1">
+          <mxGeometry x="240" y="280" width="80" height="15" as="geometry"/>
+        </mxCell>
+
+        <!-- Wires: PLC DO to SSRs -->
+        <mxCell id="W_PLC_SSR" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#B85450;strokeWidth=2;" edge="1" source="SA_PLC" target="SA_SSR_BOX" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="W_SSR_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#B85450;fontStyle=1;" value="DO-00, DO-04&lt;br&gt;(PWM)" vertex="1">
+          <mxGeometry x="510" y="280" width="65" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Wires: SSRs to Elements -->
+        <mxCell id="W_SSR_E1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#B85450;strokeWidth=2;" edge="1" source="SA_SSR_BOX" target="SA_E1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="W_SSR_E2" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#B85450;strokeWidth=2;" edge="1" source="SA_SSR_BOX" target="SA_E2"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Wires: PLC DO to Pumps -->
+        <mxCell id="W_PLC_P1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#82B366;strokeWidth=2;exitX=1;exitY=0.7;exitDx=0;exitDy=0;" edge="1" source="SA_PLC" target="SA_P1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="W_PLC_P2" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#82B366;strokeWidth=2;exitX=1;exitY=0.85;exitDx=0;exitDy=0;" edge="1" source="SA_PLC" target="SA_P2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="W_PMP_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#82B366;fontStyle=1;" value="DO-05 (P1_ON)&lt;br&gt;DO-06 (P2_ON)" vertex="1">
+          <mxGeometry x="830" y="340" width="90" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Wires: Safety to PLC -->
+        <mxCell id="W_SAFE_PLC" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#9673A6;strokeWidth=1;dashed=1;" edge="1" source="SA_SAFETY" target="SA_PLC"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Panel to PLC -->
+        <mxCell id="W_PNL_PLC" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#9673A6;strokeWidth=1;" edge="1" source="SA_PANEL" target="SA_PLC"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- NETWORK LEVEL -->
+        <mxCell id="SA_NET_LBL" parent="1" style="text;html=1;fontSize=11;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="NETWORK / HMI LEVEL" vertex="1">
+          <mxGeometry x="40" y="520" width="250" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Ethernet connection -->
+        <mxCell id="SA_ETH" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=#999999;fontSize=8;fontStyle=1;" value="Ethernet Switch&lt;br&gt;&lt;font style='font-weight:normal'&gt;Modbus TCP&lt;/font&gt;" vertex="1">
+          <mxGeometry x="340" y="550" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Wire: PLC to Switch -->
+        <mxCell id="W_PLC_ETH" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6C8EBF;strokeWidth=2;" edge="1" source="SA_PLC" target="SA_ETH"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="W_ETH_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#6C8EBF;fontStyle=1;" value="RJ45 Ethernet&lt;br&gt;Modbus TCP" vertex="1">
+          <mxGeometry x="420" y="500" width="80" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- HMI / SCADA -->
+        <mxCell id="SA_HMI_LBL" parent="1" style="text;html=1;fontSize=11;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#2A5599;" value="HMI / SCADA LEVEL" vertex="1">
+          <mxGeometry x="40" y="620" width="250" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="SA_HMI" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;strokeColor=#3366AA;fontSize=9;fontStyle=1;" value="&lt;b style='font-size:12px'&gt;Ignition Community Edition&lt;/b&gt;&lt;br&gt;&lt;br&gt;Modbus TCP Driver&lt;br&gt;~100 tags mapped (Coils + Holding Registers)&lt;br&gt;&lt;br&gt;HMI Screens: PanelMimic, Temperature,&lt;br&gt;Element Control, Pump Control, Mash Timer&lt;br&gt;&lt;br&gt;Historian | Alarming | Trending" vertex="1">
+          <mxGeometry x="200" y="650" width="400" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- HP Slate -->
+        <mxCell id="SA_SLATE" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=#999999;fontSize=8;" value="&lt;b&gt;HP Slate 21 Pro&lt;/b&gt;&lt;br&gt;21&quot; Touchscreen&lt;br&gt;Mounted on console" vertex="1">
+          <mxGeometry x="660" y="680" width="130" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Wire: Switch to Ignition -->
+        <mxCell id="W_ETH_HMI" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#3366AA;strokeWidth=2;" edge="1" source="SA_ETH" target="SA_HMI"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Wire: Ignition to Slate -->
+        <mxCell id="W_HMI_SLATE" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#999999;strokeWidth=1;dashed=1;" edge="1" source="SA_HMI" target="SA_SLATE"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="W_SLATE_LBL" parent="1" style="text;html=1;fontSize=7;fillColor=none;strokeColor=none;fontColor=#999999;fontStyle=2;" value="Local display" vertex="1">
+          <mxGeometry x="620" y="700" width="70" height="15" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="SA_LEG" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#CCCCCC;fontSize=8;align=left;spacingLeft=10;verticalAlign=top;spacingTop=5;" value="&lt;b&gt;LEGEND&lt;/b&gt;&lt;br&gt;&lt;font color='#D6B656'&gt;━━&lt;/font&gt; Analog signal (temperature)&lt;br&gt;&lt;font color='#B85450'&gt;━━&lt;/font&gt; Power / PWM output&lt;br&gt;&lt;font color='#82B366'&gt;━━&lt;/font&gt; Pump control (discrete)&lt;br&gt;&lt;font color='#6C8EBF'&gt;━━&lt;/font&gt; Ethernet / Modbus TCP&lt;br&gt;&lt;font color='#9673A6'&gt;━━&lt;/font&gt; Panel / Safety wiring" vertex="1">
+          <mxGeometry x="850" y="550" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
